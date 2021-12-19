@@ -2,6 +2,7 @@ require('packer').startup({function()
 	use 'wbthomason/packer.nvim'
 
 	use { "$HOME/.config/lionvim/liontools/", requires = { { "rcarriga/nvim-notify", "nvim-lua/popup.nvim", 'MunifTanjim/nui.nvim', 'nvim-lua/plenary.nvim' } } }
+	use { "$HOME/.config/lionvim/calc.nvim" }
 	use 'LunarVim/onedarker'
 	use 'plenary.nvim'
 
