@@ -1,6 +1,6 @@
 # LionVim-NH
 
-![Screenshot](https://github.com/L0Wigh/LionVim-NH/screen.png)
+![Screenshot](https://github.com/L0Wigh/LionVim-NH/nh.png)
 
 This is a Kali Nethunter compatible version of LionVim.
 
