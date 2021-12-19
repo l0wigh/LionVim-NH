@@ -1,5 +1,7 @@
 # LionVim-NH
 
+![Screenshot](https://github.com/L0Wigh/LionVim-NH/screen.png)
+
 This is a Kali Nethunter compatible version of LionVim.
 
 Some of the LionVim features might be buggy, but most of the tools should work (even the lsp stuff)
