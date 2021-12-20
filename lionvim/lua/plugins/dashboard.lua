@@ -18,22 +18,22 @@ vim.g.dashboard_custom_header = {
 "                                                          ",
 "                               LionVim for Nethunter 0.0.1"
 }
-∙
+
 local custom_section = {
 	a = {
-		description = { "  Find Files   " },
+		description = { "∆  Find Files   " },
 		command = "Telescope find_files"
 	},
 	b = {
-		description = { "  Recent Files " },
+		description = { "∆  Recent Files " },
 		command = "Telescope oldfiles"
 	},
 	c = {
-		description = { "  New File     " },
+		description = { "∆  New File     " },
 		command = "call LionNewFile()"
 	},
 	d = {
-		description = { "  Configuration" },
+		description = { "∆  Configuration" },
 		command = ":e ~/.config/lionvim"
 	},
 }
