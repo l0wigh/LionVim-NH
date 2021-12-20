@@ -73,7 +73,7 @@ local function status()
 		"",
 		"    Press 'q' to quit",
 	}
-	local width = 40
+	local width = 60
     local height = 10
     local borderchars = { "─", "│", "─", "│", "╭", "╮", "╯", "╰" }
     local bufnr = vim.api.nvim_create_buf(false, false)

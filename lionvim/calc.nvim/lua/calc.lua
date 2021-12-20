@@ -5,7 +5,7 @@ end
 
 local function line()
 	local x = vim.api.nvim_get_current_line()
-	local calc = assert(loadstring("return " .. x))
+	local calc = assert(load("return " .. x))
 	local y = calc()
 	local opts = {}
 	local currline = vim.api.nvim_win_get_cursor(0)
@@ -19,7 +19,7 @@ local function full()
 	end
 	local lines = vim.api.nvim_buf_get_lines(0, 0, -1, false)
 	for i,v in ipairs(lines) do
-		local calc = assert(loadstring("return " .. v))
+		local calc = assert(load("return " .. v))
 		if pcall(calc) then
 			local y = calc()
 			if y ~= nil then
